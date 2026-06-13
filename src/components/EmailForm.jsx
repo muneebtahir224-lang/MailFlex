@@ -18,7 +18,7 @@ function EmailForm() {
       setLoading(true);
 
       const endpoint =
-        email.length > 500
+        email.length > 2000
           ? "/predict-long"
           : "/predict";
 
